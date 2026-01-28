@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+
+p {color: deeppink;
+   font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-size:20px;
+	line-height: 20px;
+	width: 600px;
+	background-color: lightblue;
+	padding: 20px;
+	
+}
+
+
+.boja{background-color: lightblue;
+	margin-left: auto;
+	margin-right:auto;
+	
+}
+
+.gallery {
+  display: flex;
+  justify-content: center; 
+  gap: 50px;
+}
+.prvapozadina{
+	background-image: url("SLIKE/SLIKA 1.jpg");
+background-position: bottom;
+}
+
+.drugapozadina{
+	background-image: url("SLIKE/SLIKA 2.jpg");
+	background-position: center;
+	
+}
+
+.cetvrtapozadina{
+	background-image: url("SLIKE/SLIKA 4.jpg");
+	background-position: center;
+}
+
+.bottom-banner {
+  margin-top: 200px;   /* pushes it lower */
+  text-align: center;
+}
+
+.bottom-banner img {
+  width: 100%;
+  max-width: 1200px;
+}
